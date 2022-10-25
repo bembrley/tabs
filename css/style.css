@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    animation:ani 1s ease-in-out alternate;
+}
+.header a{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 46, 53, 0.8);
+}
+
+@keyframes ani {
+   0%{
+       transform: translateY(-100px);
+   }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+.header select{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(31, 46, 53, 0.8);
+    border: none;
+    outline: none;
+}
+.header-icon ion-icon {
+    padding: 10px 10px;
+}
+.technology{
+    padding: 70px;
+    animation: eni 2s ease-in-out alternate;
+}
+@keyframes eni {
+    0%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.technology h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133.69%;
+    color: #1F2E35;
+}
+.technology p{
+    padding: 20px 0;
+}
+.technology button{
+    width: 161px;
+    height: 53px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: none;
+}
+.technology button:hover{
+    transition: .4s;
+    transform:scale(1.1) ;
+    color: black;
+    background: transparent;
+    border-bottom: 2px solid red;
+}
+.technology-img{
+    animation: img 2s ease-in-out alternate;
+}
+@keyframes img {
+    0%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: rotate(290deg);
+
+    }
+    90%
+    {
+        transform: rotate(-290deg);
+
+    }
+}
+{
+
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 0;
+}
+.technology span{
+    color: #EE4248;
+}
+.samsara h1{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    color: #1F2E35;
+}
+.samsara p{
+    width: 570px;
+}
+.samsara span{
+    color: #EE4248;
+}
+.welcome-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: wel 2s ease-in-out alternate;
+}
+@keyframes wel {
+    0%{
+        transform: translateX(-300px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+
+.block-img p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    width: 329px;
+    color: #30444E;
+}
+.block-img h1{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 133.69%;
+    color: #EE4248;
+    padding: 20px 0;
+}
+.block-img button{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.69%;
+    width: 119px;
+    height: 42px;
+    border: none;
+    background: #EE4248;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+.block-img button:hover{
+    transition: .4s;
+    transform: scale(1.1);
+    background: transparent;
+    color: red;
+
+}
+.conter{
+    animation: cont 3s ease-in-out alternate;
+}
+@keyframes cont {
+    0%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(0px);
+
+    }
+}
+
+.blocks{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.blocks-text{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    text-align: center;
+    color: #1F2E35;
+    padding: 100px 0;
+}
+#pod{
+    background: #EE4248;
+    height: 64px;
+}
+.pod h1{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+#footer{
+    margin: 50px 0 10px  0;
+}
+.footer-block h1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #263238;
+    padding: 20px 0;
+}
+.footer-block p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+
+}
+.footer-text a{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+}
+.footer-text h2{
+    padding: 20px 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.footer-text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
